@@ -1,0 +1,14 @@
+# Block everything
+/*
+
+# Allow needed files and folders
+!config.fish
+!functions/
+!completions/
+!conf.d/
+!.gitignore
+!README.md
+
+# Exclude local overrides inside allowed folders
+functions/local_*.fish
+conf.d/*.local.fish
